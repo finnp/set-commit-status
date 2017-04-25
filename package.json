@@ -2,7 +2,7 @@
   "name": "set-commit-status",
   "version": "1.0.0",
   "description": "CLI for setting commit statuses on GitHub\"",
-  "main": "index.js",
+  "bin": "./bin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/finnp/set-commit-status/issues"
   },
-  "homepage": "https://github.com/finnp/set-commit-status#readme"
+  "homepage": "https://github.com/finnp/set-commit-status#readme",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "git-repo-info": "^1.4.1",
+    "github-slug": "^2.0.0",
+    "simple-get": "^2.6.0"
+  }
 }
