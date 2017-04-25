@@ -1,0 +1,24 @@
+{
+  "name": "set-commit-status",
+  "version": "1.0.0",
+  "description": "CLI for setting commit statuses on GitHub\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnp/set-commit-status.git"
+  },
+  "keywords": [
+    "github",
+    "commit",
+    "status"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/set-commit-status/issues"
+  },
+  "homepage": "https://github.com/finnp/set-commit-status#readme"
+}
